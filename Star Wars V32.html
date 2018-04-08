@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Star Wars</title>
+    <link rel="stylesheet" type="text/css" href="js/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="css/jquery.dataTables.min.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="shortcut icon" href="img/favicon.gif">
+    <script type="text/javascript" ` language="javascript" src="js/jquery-1.12.4.js"></script>
+    <script type="text/javascript" language="javascript" src="js/jquery-3.2.0.min.js"></script>
+    <script type="text/javascript" language="javascript" src="js/jquery.dataTables.min.js"></script>
+    <script type="text/javascript" language="javascript" src="js/main.js"></script>
+
+    <style>
+    </style>
+
+</head>
+
+
+
+<body id="">
+        <div id="divCentrado" class="">
+            <input type="button" class="btn btn-primary" id="buttonCentrado" style="position: absolute !important;margin-left: 85% !important;margin-top: 2% !important;" onclick="EsconderDiv()"; value="Cerrar"></input>
+            <h2>Detalles</h2>
+            <table class="table table-condensed ">
+                <tr>
+                    <td>Name</td>
+                    <td><p id="NameDetails"></p></td>
+                </tr>
+                <tr>
+                    <td>Gender</td>
+                    <td><p id="GenderDetails"></p></td>
+                </tr>
+                <tr>
+                    <td>Films</td>
+                    <td><p id="FilmsDetails"></p></td>
+                </tr>
+                <tr>
+                    <td>Vehicles</td>
+                    <td><p id="VehiclesDetails"></p></td>
+                </tr>
+                <tr>
+                    <td>Starships</td>
+                    <td><p id="StarshipsDetails"></p></td>
+                </tr>
+            </table>
+        </div>
+    <div class="stars"></div>
+    <div class="twinkling"></div>
+    <div class="clouds"></div>
+    <section id="Loading">
+        <div>C</div>
+        <div class="delay1">A</div>
+        <div class="delay2">R</div>
+        <div class="delay3">G</div>
+        <div class="delay4">A</div>
+        <div class="delay5">N</div>
+        <div class="delay6">D</div>
+        <div class="delay7">O</div>
+    </section>
+
+    <div class="container">
+
+        <div class="container-fluid form-group">
+            <img src="img/logo.png" class="logoImage">
+            <br/><br/>
+            
+            <p>Nombre :</p>
+            
+            <select id="nombres">
+        	</select>
+
+            <div class="btn-group" role="group" aria-label="Busqueda">
+                <input class="btn btn-primary" type="button" onclick="CargarUno()" name="" value="Buscar">
+                <input class="btn btn-primary" type="button" onclick="cambiarEntreTablas()" name="" value="Cambiar Tabla"></div>
+
+        </div>
+        <br/><br/>
+
+        <div id="Busqueda1" class="Busqueda1">
+            <div class="table-responsive">
+                <table id="TableBusqueda1" class="display" cellspacing="0" width="100%">
+                    <thead>
+                        <tr>
+                            <th>Name</th>
+                            <th>Height</th>
+                            <th>Hair Color</th>
+                            <th>Skin Color</th>
+                            <th>Gender</th>
+                        </tr>
+                    </thead>
+                    <tfoot>
+                        <tr>
+                            <th>Name</th>
+                            <th>Height</th>
+                            <th>Hair Color</th>
+                            <th>Skin Color</th>
+                            <th>Gender</th>
+                        </tr>
+                    </tfoot>
+                    <tbody>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+
+        <div id="Busqueda2" class="Busqueda2 esconder">
+            <div class="table-responsive">
+                <table id="TableBusqueda2" class="display" cellspacing="0" width="100%">
+                    <thead>
+                        <tr>
+                            <th>Name</th>
+                            <th>Gender</th>
+                            <th>Films</th>
+                            <th>Vehicles</th>
+                            <th>Starships</th>
+                        </tr>
+                    </thead>
+                    <tfoot>
+                        <tr>
+                            <th>Name</th>
+                            <th>Gender</th>
+                            <th>Films</th>
+                            <th>Vehicles</th>
+                            <th>Starships</th>
+                        </tr>
+                    </tfoot>
+                    <tbody>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+
+
+    </div>
+
+</body>
+
+</html>

@@ -1,0 +1,284 @@
+
+        @import url(https://fonts.googleapis.com/css?family=Lato:300);
+
+        section#Loading {
+            z-index: 9998 !important;
+            width: 100%;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 65px;
+            font-family: 'Lato', sans-serif;
+            font-weight: 300;
+            position: fixed;
+            background: black;
+            background: linear-gradient(to bottom right, #000000, #1c1c1c);
+            color: rgba(155, 153, 153, 0.5);
+            margin-top: -2%;
+        }
+
+        section div {
+            margin-left: 5px;
+            transform: scale(0, 0);
+            animation: scaler 1.5s ease-in-out infinite;
+        }
+
+        .delay1 {
+            animation-delay: .1s;
+        }
+
+        .delay2 {
+            animation-delay: .2s;
+        }
+
+        .delay3 {
+            animation-delay: .3s;
+        }
+
+        .delay4 {
+            animation-delay: .4s;
+        }
+
+        .delay5 {
+            animation-delay: .5s;
+        }
+
+        .delay6 {
+            animation-delay: .6s;
+        }
+
+        .delay6 {
+            animation-delay: .7s;
+        }
+
+        .delay7 {
+            animation-delay: .8s;
+        }
+
+        @media (max-width: 768px) {
+            section {
+                font-size: 50px;
+            }
+        }
+
+        @keyframes scaler {
+            0% {
+                transform: scale(0, 0);
+            }
+            50% {
+                transform: scale(1, 1);
+            }
+            100% {
+                transform: scale(0, 0);
+            }
+        }
+
+        body {
+            padding-top: 54px;
+            font-family: 'Lato', sans-serif;
+            background-color: black;
+            z-index: 4;
+        }
+
+        select {
+            position: relative;
+            color: black;
+        }
+
+        @media (min-width: 992px) {
+            body {
+                padding-top: 56px;
+            }
+        }
+
+        button {
+            height: 100%;
+        }
+
+        .mostrar {
+            visibility: visible;
+            position: relative;
+        }
+
+        .esconder {
+            visibility: hidden;
+            position: fixed;
+        }
+
+        .logoImage {
+            z-index: 9998 !important;
+            size: 50%;
+            margin: 0 auto !important;
+            display: block;
+            position: relative;
+        }
+
+        .container {
+            z-index: 9998 !important;
+            background-color: black;
+            color: white;
+        }
+        table tbody {
+            color: black;
+        }
+        label{
+            color: white !important;
+        }
+        #divCentrado{
+            position: fixed;
+            top: 25%;
+            left: 25%;
+            margin-top: -50px;
+            margin-left: -25px;
+            width: 50%;
+            height: 75%;
+            background-color: white;
+            z-index: 9999;
+            border: 2px solid red;
+            padding: 10px;
+            border-radius: 25px;
+            border-color: black;
+            visibility: hidden;
+        }​
+        
+        /* ============================================================================================== 
+        Nick Mkrtchyan
+        https://www.facebook.com/sonick.pk
+        http://www.Mkrtchyan.zz.mu
+        ================================================================================================= */
+
+        header {
+            background-color: rgba(33, 33, 33, 0.9);
+            color: #ffffff;
+            display: block;
+            font: 14px/1.3 Arial, sans-serif;
+            height: 50px;
+            position: relative;
+            z-index: 5;
+        }
+
+        h2 {
+            margin-top: 30px;
+            text-align: center;
+        }
+
+        header h2 {
+            font-size: 22px;
+            margin: 0 auto;
+            padding: 10px 0;
+            width: 80%;
+            text-align: center;
+        }
+
+        @keyframes move-twink-back {
+            from {
+                background-position: 0 0;
+            }
+            to {
+                background-position: -10000px 5000px;
+            }
+        }
+
+        @-webkit-keyframes move-twink-back {
+            from {
+                background-position: 0 0;
+            }
+            to {
+                background-position: -10000px 5000px;
+            }
+        }
+
+        @-moz-keyframes move-twink-back {
+            from {
+                background-position: 0 0;
+            }
+            to {
+                background-position: -10000px 5000px;
+            }
+        }
+
+        @-ms-keyframes move-twink-back {
+            from {
+                background-position: 0 0;
+            }
+            to {
+                background-position: -10000px 5000px;
+            }
+        }
+
+        @keyframes move-clouds-back {
+            from {
+                background-position: 0 0;
+            }
+            to {
+                background-position: 10000px 0;
+            }
+        }
+
+        @-webkit-keyframes move-clouds-back {
+            from {
+                background-position: 0 0;
+            }
+            to {
+                background-position: 10000px 0;
+            }
+        }
+
+        @-moz-keyframes move-clouds-back {
+            from {
+                background-position: 0 0;
+            }
+            to {
+                background-position: 10000px 0;
+            }
+        }
+
+        @-ms-keyframes move-clouds-back {
+            from {
+                background-position: 0;
+            }
+            to {
+                background-position: 10000px 0;
+            }
+        }
+
+        .stars,
+        .twinkling,
+        .clouds {
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            width: 100%;
+            height: 100%;
+            display: block;
+        }
+
+        .stars {
+            background: #000 url(http://www.script-tutorials.com/demos/360/images/stars.png) repeat top center;
+            z-index: 0;
+        }
+
+        .twinkling {
+            background: transparent url(http://www.script-tutorials.com/demos/360/images/twinkling.png) repeat top center;
+            z-index: 0;
+
+            -moz-animation: move-twink-back 200s linear infinite;
+            -ms-animation: move-twink-back 200s linear infinite;
+            -o-animation: move-twink-back 200s linear infinite;
+            -webkit-animation: move-twink-back 200s linear infinite;
+            animation: move-twink-back 200s linear infinite;
+        }
+
+        .clouds {
+            background: transparent url(http://www.script-tutorials.com/demos/360/images/clouds3.png) repeat top center;
+            z-index: 0;
+
+            -moz-animation: move-clouds-back 200s linear infinite;
+            -ms-animation: move-clouds-back 200s linear infinite;
+            -o-animation: move-clouds-back 200s linear infinite;
+            -webkit-animation: move-clouds-back 200s linear infinite;
+            animation: move-clouds-back 200s linear infinite;
+        }
